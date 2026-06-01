@@ -26,7 +26,6 @@ Primary file used:
 ```text
 application_train.csv
 ```
-
 ---
 
 
@@ -375,6 +374,13 @@ python src/ml/predict.py
 ```
 
 ---
+## Download application_train.csv from the Home Credit Default Risk dataset and place it inside the data/ directory:
+
+credit_risk_platform/
+└── data/
+    └── application_train.csv
+
+The dataset is not included in this repository due to size constraints.
 
 ## Run Streamlit
 
