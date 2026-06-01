@@ -206,20 +206,38 @@ CODE_GENDER
 User Question:
 Show average credit amount by gender.
 ```
-Example Questions
-How many customers defaulted?
+## Example Questions
 
-What is the default rate?
+The Talk-to-Data module allows business users to query the dataset using natural language without writing SQL.
 
-Average income of defaulters?
+### Credit Risk Analysis
 
+- How many customers defaulted?
+- What is the default rate?
+- Average income of defaulters?
+- Which occupations have the highest default rate?
+- Do males or females have a higher default rate?
+
+### Customer & Income Analysis
+
+- Show top 10 occupations by average income.
+- What is the average credit amount by gender?
+- What is the average income by occupation?
+- Which customer segment has the highest average income?
+
+### Loan Analysis
+
+- What is the average loan amount?
+- Which occupations receive the highest credit amounts?
+- What is the average loan-to-income ratio?
+
+### Sample Query Flow
+
+**User Question**
+
+```text
 Which occupations have the highest default rate?
 
-Show top 10 occupations by average income.
-
-What is the average credit amount by gender?
-
-Do males or females have a higher default rate?
 ```
 ### SQL Constraints
 
