@@ -362,6 +362,19 @@ python src/ml/predict.py
 
 ---
 
+## Run Streamlit
+
+```bash
+streamlit run src/ui/app.py
+```
+
+Access:
+
+```text
+http://localhost:8501
+```
+
+---
 # 13. Docker Setup
 
 ## Build Image
