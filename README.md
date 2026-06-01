@@ -14,7 +14,21 @@ The system enables:
 * Natural language interaction with data
 * Containerized deployment using Docker
 
+
+# Dataset
+
+Dataset Source:
+
+[Home Credit Default Risk Dataset (Kaggle)](https://www.kaggle.com/competitions/home-credit-default-risk?utm_source=chatgpt.com)
+
+Primary file used:
+
+```text
+application_train.csv
+```
+
 ---
+
 
 # 2. Architecture Overview
 
