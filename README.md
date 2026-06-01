@@ -377,24 +377,26 @@ http://localhost:8501
 ---
 # 13. Docker Setup
 
-## Build Image
+
+## Create Environment File
 
 ```bash
-docker build -t credit-risk-platform .
+cp .env.example .env
 ```
 
-## Run Container
+Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+---
+
+## Build and Run
 
 ```bash
-docker run -p 8000:8000 credit-risk-platform
+docker compose up --build
 ```
-
-## Docker Compose
-
-```bash
-docker-compose up --build
-```
-
 ---
 
 # 14. Sample Outputs
