@@ -1,0 +1,42 @@
+# Datasets (mounted in Docker; not committed)
+data/*
+!data/.gitkeep
+
+# Model artifacts
+models/*
+!models/.gitkeep
+
+# Generated assets
+assets/charts/
+assets/shap/
+
+# SQLite cache
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.local
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
